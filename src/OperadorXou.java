@@ -16,6 +16,13 @@ public class OperadorXou {
 		
 		leitor.close();
 		
+		if(umidade > 70 ^ temperatura > 26  ) {
+			System.out.println("Ligar os Ventiladors");
+		}
+		else {
+			System.out.println("Ligar para o Agronomo");
+		}
+		
 
 	}
 
